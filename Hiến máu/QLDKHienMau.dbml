@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QLDKHienMau" Class="QLDKHienMauDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=LAPTOP-AHVGN66G\SQLEXPRESS;Initial Catalog=QLDKHienMau;Integrated Security=True" SettingsObjectName="Hiến_máu.Properties.Settings" SettingsPropertyName="QLDKHienMauConnectionString1" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ChienDich" Member="ChienDiches">
+    <Type Name="ChienDich">
+      <Column Name="mscd" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="tenChienDich" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="[slogan, logo]" Member="slogan__logo" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ngayThang" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="thoiGian" Type="System.String" DbType="Char(10) NOT NULL" CanBeNull="false" />
+      <Column Name="diaChi" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="diaChiEmail" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="web" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="ChienDich_PhieuDK" Member="PhieuDKs" ThisKey="mscd" OtherKey="mscd" Type="PhieuDK" />
+      <Association Name="ChienDich_PhieuKQ" Member="PhieuKQs" ThisKey="mscd" OtherKey="mscd" Type="PhieuKQ" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PhieuDK" Member="PhieuDKs">
+    <Type Name="PhieuDK">
+      <Column Name="mscd" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="mspDangKy" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="GioDkHienMau" Type="System.String" DbType="VarChar(7) NOT NULL" CanBeNull="false" />
+      <Column Name="ngayDKHienMau" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="ngayHienMauTruoc" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="diaDiemDKHienMau" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="loaiHienMau" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="tiemVaccineCovid19" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="sdtNguoiThan" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="trangThaiDK" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="mshs" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="PhieuDK_PhieuKQ" Member="PhieuKQs" ThisKey="mspDangKy" OtherKey="mspDangKy" Type="PhieuKQ" />
+      <Association Name="ChienDich_PhieuDK" Member="ChienDich" ThisKey="mscd" OtherKey="mscd" Type="ChienDich" IsForeignKey="true" />
+      <Association Name="HoSoDK_PhieuDK" Member="HoSoDK" ThisKey="mshs" OtherKey="mshs" Type="HoSoDK" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.HoSoDK" Member="HoSoDKs">
+    <Type Name="HoSoDK">
+      <Column Name="mshs" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="hoTen" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ntns" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="gioitinh" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="dclh" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="sdtlh" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="DCemail" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="nhommau" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="IDAccount" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="HoSoDK_PhieuDK" Member="PhieuDKs" ThisKey="mshs" OtherKey="mshs" Type="PhieuDK" />
+      <Association Name="HoSoDK_PhieuKQ" Member="PhieuKQs" ThisKey="mshs" OtherKey="mshs" Type="PhieuKQ" />
+      <Association Name="tblLogin_HoSoDK" Member="tblLogin" ThisKey="IDAccount" OtherKey="IDAccount" Type="tblLogin" IsForeignKey="true" />
+      <Association Name="tblLogin_HoSoDK1" Member="tblLogin1" ThisKey="IDAccount" OtherKey="IDAccount" Type="tblLogin" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PhieuKQ" Member="PhieuKQs">
+    <Type Name="PhieuKQ">
+      <Column Name="mspKetQua" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="mspDangKy" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ngayThucSuHienMau" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="soLuongMauDaHien" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="loaiHienMauThucSu" Type="System.String" DbType="NVarChar(30) NOT NULL" CanBeNull="false" />
+      <Column Name="tinhTrangHienMau" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="tinhTrangSucKhoe" Type="System.String" DbType="NVarChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="ghiChu" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="mscd" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="mshs" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="HoSoDK_PhieuKQ" Member="HoSoDK" ThisKey="mshs" OtherKey="mshs" Type="HoSoDK" IsForeignKey="true" />
+      <Association Name="ChienDich_PhieuKQ" Member="ChienDich" ThisKey="mscd" OtherKey="mscd" Type="ChienDich" IsForeignKey="true" />
+      <Association Name="PhieuDK_PhieuKQ" Member="PhieuDK" ThisKey="mspDangKy" OtherKey="mspDangKy" Type="PhieuDK" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblLogin" Member="tblLogins">
+    <Type Name="tblLogin">
+      <Column Name="IDAccount" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Username" Type="System.String" DbType="NChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NChar(20) NOT NULL" CanBeNull="false" />
+      <Column Name="IDRole" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="tblLogin_HoSoDK" Member="HoSoDKs" ThisKey="IDAccount" OtherKey="IDAccount" Type="HoSoDK" />
+      <Association Name="tblLogin_HoSoDK1" Member="HoSoDKs1" ThisKey="IDAccount" OtherKey="IDAccount" Type="HoSoDK" />
+    </Type>
+  </Table>
+</Database>

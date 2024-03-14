@@ -1,0 +1,70 @@
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\bin\Debug\Hiến máu.exe.config
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\bin\Debug\Hiến máu.exe
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\bin\Debug\Hiến máu.pdb
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\obj\Debug\Hiến máu.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmListRegistor.resources
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmSignIn.resources
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmRegister.resources
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmResult.resources
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmListResult.resources
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmAdmin.resources
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmUser.resources
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.Properties.Resources.resources
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmSignUp.resources
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmInfo.resources
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\obj\Debug\Hiến máu.csproj.GenerateResource.cache
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\obj\Debug\Hiến máu.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\obj\Debug\Hiến máu.csproj.CopyComplete
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\obj\Debug\Hiến máu.exe
+C:\Users\Admin\Documents\Zalo Received Files\sql\Hiến máu\Hiến máu\obj\Debug\Hiến máu.pdb
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\bin\Debug\Hiến máu.exe.config
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\bin\Debug\Hiến máu.exe
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\bin\Debug\Hiến máu.pdb
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\bin\Debug\EntityFramework.dll
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\bin\Debug\EntityFramework.xml
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\obj\Debug\Hiến máu.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmListRegistor.resources
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmSignIn.resources
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmRegister.resources
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmResult.resources
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmListResult.resources
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmAdmin.resources
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmUser.resources
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.Properties.Resources.resources
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmSignUp.resources
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmInfo.resources
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\obj\Debug\Hiến máu.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\obj\Debug\Hiến máu.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\obj\Debug\Hiến máu.csproj.CopyComplete
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\obj\Debug\Hiến máu.exe
+C:\Users\Admin\source\repos\Hiến máu\Hiến máu\obj\Debug\Hiến máu.pdb
+D:\Downloads\Hiến máu\Hiến máu\bin\Debug\Hiến máu.exe.config
+D:\Downloads\Hiến máu\Hiến máu\bin\Debug\Hiến máu.exe
+D:\Downloads\Hiến máu\Hiến máu\bin\Debug\Hiến máu.pdb
+D:\Downloads\Hiến máu\Hiến máu\bin\Debug\EntityFramework.dll
+D:\Downloads\Hiến máu\Hiến máu\bin\Debug\EntityFramework.SqlServer.dll
+D:\Downloads\Hiến máu\Hiến máu\bin\Debug\EntityFramework.xml
+D:\Downloads\Hiến máu\Hiến máu\bin\Debug\EntityFramework.SqlServer.xml
+D:\Downloads\Hiến máu\Hiến máu\obj\Debug\Hiến máu.csproj.AssemblyReference.cache
+D:\Downloads\Hiến máu\Hiến máu\obj\Debug\Hiến máu.csproj.SuggestedBindingRedirects.cache
+D:\Downloads\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmListRegistor.resources
+D:\Downloads\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmSignIn.resources
+D:\Downloads\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmRegister.resources
+D:\Downloads\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmResult.resources
+D:\Downloads\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmListResult.resources
+D:\Downloads\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmAdmin.resources
+D:\Downloads\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmUser.resources
+D:\Downloads\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.Properties.Resources.resources
+D:\Downloads\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmSignUp.resources
+D:\Downloads\Hiến máu\Hiến máu\obj\Debug\Hiến_máu.frmInfo.resources
+D:\Downloads\Hiến máu\Hiến máu\obj\Debug\Hiến máu.csproj.GenerateResource.cache
+D:\Downloads\Hiến máu\Hiến máu\obj\Debug\Hiến máu.csproj.CoreCompileInputs.cache
+D:\Downloads\Hiến máu\Hiến máu\obj\Debug\Hiến máu.csproj.CopyComplete
+D:\Downloads\Hiến máu\Hiến máu\obj\Debug\Hiến máu.exe
+D:\Downloads\Hiến máu\Hiến máu\obj\Debug\Hiến máu.pdb

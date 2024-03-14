@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.25, 8.5" name="QLDKHienMau">
+  <DataContextMoniker Name="/QLDKHienMauDataContext" />
+  <nestedChildShapes>
+    <classShape Id="4dd9366a-ae0a-4b53-89d2-0e1072a721eb" absoluteBounds="3.5, 5.25, 2, 2.3478011067708344">
+      <DataClassMoniker Name="/QLDKHienMauDataContext/ChienDich" />
+      <nestedChildShapes>
+        <elementListCompartment Id="cb5e1ca1-7b1f-45ea-a988-3c3594509d00" absoluteBounds="3.515, 5.71, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="df7bd6a7-b373-40ea-aea1-11ae52f6b1c1" absoluteBounds="6.25, 1, 2, 2.9247054036458326">
+      <DataClassMoniker Name="/QLDKHienMauDataContext/PhieuDK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5ee46724-1fa1-41e7-87e9-2e47516f7c3b" absoluteBounds="6.265, 1.46, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="85693b32-2d16-4f6d-b78f-3c59d7cb654b" absoluteBounds="3.5, 1.125, 2, 2.5401025390625005">
+      <DataClassMoniker Name="/QLDKHienMauDataContext/HoSoDK" />
+      <nestedChildShapes>
+        <elementListCompartment Id="49db27b9-c1e6-4e50-8a0e-9ae0bac84aac" absoluteBounds="3.515, 1.585, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f56c5f0e-ff79-40bb-8952-c85c2ae4f44d" absoluteBounds="9, 1.125, 2, 2.7324039713541666">
+      <DataClassMoniker Name="/QLDKHienMauDataContext/PhieuKQ" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a5a4db41-4ad7-45a1-8f89-ebafd24e5565" absoluteBounds="9.015, 1.585, 1.9700000000000002, 2.1724039713541665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="07c5ae33-71a1-4c50-84d2-e093cb8d0061" absoluteBounds="0.75, 1.625, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/QLDKHienMauDataContext/tblLogin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="45af6d3f-6478-4b3a-ad76-1bd5c4d2e206" absoluteBounds="0.765, 2.085, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 6.42390055338542); (7.25 : 6.42390055338542); (7.25 : 3.92470540364583)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLDKHienMauDataContext/ChienDich/ChienDich_PhieuDK" />
+      <nodes>
+        <classShapeMoniker Id="4dd9366a-ae0a-4b53-89d2-0e1072a721eb" />
+        <classShapeMoniker Id="df7bd6a7-b373-40ea-aea1-11ae52f6b1c1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 2.39505126953125); (6.25 : 2.39505126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLDKHienMauDataContext/HoSoDK/HoSoDK_PhieuDK" />
+      <nodes>
+        <classShapeMoniker Id="85693b32-2d16-4f6d-b78f-3c59d7cb654b" />
+        <classShapeMoniker Id="df7bd6a7-b373-40ea-aea1-11ae52f6b1c1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 3.66356307752404); (5.875 : 4.03856307752404); (5.875 : 4.23240397135417); (7.16666666666667 : 4.23240397135417 : JumpStart); (7.33333333333333 : 4.23240397135417 : JumpEnd); (8.625 : 4.23240397135417); (9 : 3.85740397135417)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/QLDKHienMauDataContext/HoSoDK/HoSoDK_PhieuKQ" />
+      <nodes>
+        <classShapeMoniker Id="85693b32-2d16-4f6d-b78f-3c59d7cb654b" />
+        <classShapeMoniker Id="f56c5f0e-ff79-40bb-8952-c85c2ae4f44d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 5.80569777669271); (7.16666666666667 : 5.80569777669271 : JumpStart); (7.33333333333333 : 5.80569777669271 : JumpEnd); (10.0312525 : 5.80569777669271); (10.0312525 : 3.85740397135417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLDKHienMauDataContext/ChienDich/ChienDich_PhieuKQ" />
+      <nodes>
+        <classShapeMoniker Id="4dd9366a-ae0a-4b53-89d2-0e1072a721eb" />
+        <classShapeMoniker Id="f56c5f0e-ff79-40bb-8952-c85c2ae4f44d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.25 : 2.45994948567708); (9 : 2.45994948567708)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLDKHienMauDataContext/PhieuDK/PhieuDK_PhieuKQ" />
+      <nodes>
+        <classShapeMoniker Id="df7bd6a7-b373-40ea-aea1-11ae52f6b1c1" />
+        <classShapeMoniker Id="f56c5f0e-ff79-40bb-8952-c85c2ae4f44d" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 2.41429768880208); (3.5 : 2.41429768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLDKHienMauDataContext/tblLogin/tblLogin_HoSoDK" />
+      <nodes>
+        <classShapeMoniker Id="07c5ae33-71a1-4c50-84d2-e093cb8d0061" />
+        <classShapeMoniker Id="85693b32-2d16-4f6d-b78f-3c59d7cb654b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 1.95714884440104); (3.5 : 1.95714884440104)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/QLDKHienMauDataContext/tblLogin/tblLogin_HoSoDK1" />
+      <nodes>
+        <classShapeMoniker Id="07c5ae33-71a1-4c50-84d2-e093cb8d0061" />
+        <classShapeMoniker Id="85693b32-2d16-4f6d-b78f-3c59d7cb654b" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
